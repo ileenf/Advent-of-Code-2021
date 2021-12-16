@@ -1,8 +1,7 @@
-from collections import deque
 import math
 import heapq
 
-
+# used dijkstra's algorithm
 def chiton():
     file = open('/Users/ileenf/CS/aoc/aoc15.txt')
     paths = []
@@ -36,6 +35,7 @@ def chiton():
     return distances[len(paths) - 1][len(paths[0]) - 1]
 
 
+# used dijkstra's algorithm
 def chiton2():
     file = open('/Users/ileenf/CS/aoc/aoc15.txt')
     paths = []
